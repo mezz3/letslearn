@@ -1,6 +1,32 @@
 * {
     font-family: 'Bai Jamjuree', sans-serif;
 }
+
+a {
+    color: white;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+p {
+    font-size: 1.75vw;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -26,17 +52,37 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
+.active {
+    background-color: #4CAF50;
+}
+
 .board {
 	font-size: 2vw;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: left;
+	margin: auto;
 	display: block;
 	border: 8px solid;
 	border-radius: 10px;
 	border-color: #3EC8AC;
 	padding: 5vw 5vw;
-    background-image: url("bgbox.png");
+    background-image: url("../img/bgbox.svg");
+    opacity: 0.95;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.column {
+    column-count: 3;
+}
+
+.color-inboard {
+    color: white;
 }
 
 .footer {
@@ -45,5 +91,12 @@ li a:hover:not(.active) {
 }
 
 .linkto_content {
+    color: white;
     text-align: right;
+}
+
+.title {
+    font-size: 2.5vw;
+    color: white;
+    text-align: center;
 }
