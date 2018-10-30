@@ -169,7 +169,8 @@ function showResults(){
       ansContainers[questionNumber].innerHTML = currentQuestion.ans;
     }
   });
-    resultsContainer.innerHTML = correct + " out of " + myQuestions.length;
+    resultsContainer.innerHTML = correct + " เต็ม " + myQuestions.length;
+    alert(correct + " เต็ม " + myQuestions.length);
 }
 
 
@@ -209,4 +210,5 @@ showSlide(0);
 submitButton.addEventListener("click", showResults);
 previousButton.addEventListener("click", showPreviousSlide);
 nextButton.addEventListener("click", showNextSlide);
+
 })();
