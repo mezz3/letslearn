@@ -6,61 +6,61 @@
     
     var myQuestions = [
       {
-        question: "ให้ f { ( 1 , 2 ) , ( 3 , 4 ) , ( 5 , 6 ) , ( 7 , 8 ) } และ g { ( 1 , 2 ) , ( 2 , 1 ) , ( 3 , 4 ) , ( 4 , 3 ) , ( 5 , 6 ) , ( 6 , 5 ) } <br><br> ข้อใดต่อไปนี้มีค่าเท่ากับ g∘f",
+        question: " ( x<sup>2</sup> )<sup>3</sup> หมายถึงข้อใด",
         answers: {
-          a: "{ ( 2 , 2 ) , ( 4 , 4 ) , ( 6 , 6 ) }",
-          b: "{ ( 1 , 1 ) , ( 3 , 3 ) , ( 5 , 5 ) }",
-          c: "{ ( 1 , 1 ) , ( 3 , 3 ) , ( 5 , 5 ) }",
-          d: "{ ( 0 , 0 ) }"
+          a: "x<sup>2</sup> + x<sup>2</sup> + x<sup>2</sup>",
+          b: "x<sup>3</sup> + x<sup>3</sup>",
+          c: "x<sup>2</sup> * x<sup>2</sup> * x<sup>2</sup>",
+          d: "x<sup>3</sup> * x<sup>3</sup>"
         },
         correctAnswer: "c",
         ans: "เฉลย c"
       },
       {
-        question: " ให้ f( x ) = 2x + 1 และ g( x ) = x<sup>2</sup> + 3x + 1 ข้อใดต่อไปนี้มีค่าเท่ากับ g∘f( x )",
+        question: " ( 7 x<sup>3</sup> )<sup>0</sup> แทนจำนวนใด โดยที่ x ≠ 0",
         answers: {
-          a: "2x<sup>2</sup> + 6x + 3",
-          b: "4x<sup>2</sup> + 10x + 5",
-          c: "2x<sup>3</sup> + 7x<sup>2</sup> + 5x + 1",
-          d: "x<sup>2</sup> + 5x + 2"
+          a: "7",
+          b: "7x<sup>3</sup>",
+          c: "0",
+          d: "1"
+        },
+        correctAnswer: "d",
+        ans: "เฉลย d"
+      },
+      {
+        question: "4<sup>a</sup> เขียนให้อยู่ในรูปฐานที่เป็นที่สอง ได้เท่าไร",
+        answers: {
+          a: "2<sup>0</sup>",
+          b: "2<sup>a</sup>",
+          c: "2<sup>2a</sup>",
+          d: "2<sup>3a</sup>"
+        },
+        correctAnswer: "c",
+        ans: "เฉลย c"
+    
+      },
+      {
+        question: "จำนวน 125<sup>2n</sup> มีค่าเท่ากับเท่าใด",
+        answers: {
+          a: "5<sup>4n</sup>",
+          b: "5<sup>5n</sup>",
+          c: "5<sup>6n</sup>",
+          d: "5<sup>7n</sup>"
+        },
+        correctAnswer: "a",
+        ans: "เฉลย a"
+    
+      },
+      {
+        question: "2.30 x 10<sup>-10</sup> มีค่าเท่ากับข้อใด",
+        answers: {
+          a: "0.000000000023",
+          b: "0.00000000023",
+          c: "0.000000023",
+          d: "0.00000023"
         },
         correctAnswer: "b",
         ans: "เฉลย b"
-      },
-      {
-        question: "ให้ f { ( 1 , 2 ) , ( 3 , 4 ) , ( 5 , 6 ) , ( 7 , 8 ) } และ g { ( 1 , 2 ) , ( 4 , 3 ) , ( 5 , 6 ) , ( 8 , 7 ) } <br> ข้อใดต่อไปนี้มีค่าเท่ากับ f<sup>-1</sup>∘g( -5 ) + g<sup>-1</sup>∘f( 1 )",
-        answers: {
-          a: "-4",
-          b: "-2",
-          c: "2",
-          d: "4"
-        },
-        correctAnswer: "d",
-        ans: "เฉลย d"
-    
-      },
-      {
-        question: "ให้ g( x ) = 3x - 2 และ g∘f( x ) = 2x - 3 และ f เป็นฟังก์ชันหนึ่งต่อหนึ่ง ข้อใดต่อไปนี้มีค่าเท่ากับ f<sup>-1</sup>( 1 )",
-        answers: {
-          a: "-1",
-          b: "0",
-          c: "1",
-          d: "2"
-        },
-        correctAnswer: "d",
-        ans: "เฉลย d"
-    
-      },
-      {
-        question: "ให้ g( x ) = 2x<sup>2</sup> + 3 และ g∘f( x ) = 3x<sup>2</sup> + 2 ข้อใดต่อไปนี้มีค่าเท่ากับค่า f( -1 )",
-        answers: {
-          a: "-1",
-          b: "0",
-          c: "1",
-          d: "2"
-        },
-        correctAnswer: "c",
-        ans: "เฉลย c"
 
       }
     ];
