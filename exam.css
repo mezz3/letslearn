@@ -1,0 +1,95 @@
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+}
+
+.slide {
+    margin: 10px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.active-slide {
+    opacity: 1;
+    z-index: 2;
+}
+
+.quiz-container {
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 3vw;
+	border: 8px solid;
+	border-radius: 10px;
+    border-color: #3EC8AC;
+    background-image: url("../img/bgbox.svg");
+    opacity: 0.95;
+}
+
+body {
+	font-size: 20px;
+	color: #333;
+    font-weight: 300;
+    text-align: center;
+    background-image: url("../img/background.jpg");
+}
+
+.but {
+    font-size: 1.75vw;
+	border: 8px solid;
+	border-radius: 10px;
+    border-color: #3EC8AC;
+    background-image: url("../img/bgbox.svg");
+    opacity: 0.95;
+}
+
+.answers {
+    margin-top: 1%; 
+    margin-bottom: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+.test {
+    margin-top: 10%;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.ans {
+    text-align: center;
+}
+
+#submit {
+    background-color: red;
+}
+
+#submit:hover {
+    background-color: pink;
+}
