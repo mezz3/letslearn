@@ -1,6 +1,5 @@
 * {
     font-family: 'Bai Jamjuree', sans-serif;
-    color: white;
 }
 
 .slide {
@@ -11,7 +10,7 @@
     width: 100%;
     z-index: 1;
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 0.1s;
 }
 
 .active-slide {
@@ -27,6 +26,7 @@
 
 h1 {
     font-size: 3vw;
+    color: white;
 	border: 8px solid;
 	border-radius: 10px;
     border-color: #3EC8AC;
@@ -44,6 +44,7 @@ body {
 
 .but {
     font-size: 1.75vw;
+    color: white;
 	border: 8px solid;
 	border-radius: 10px;
     border-color: #3EC8AC;
