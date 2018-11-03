@@ -7,7 +7,7 @@ a {
 }
 
 body {
-    background-image: url("../img/background.jpg");
+    background-image: url("img/background.jpg");
 }
 
 button {
@@ -65,7 +65,7 @@ li a:hover:not(.active) {
 	border-radius: 10px;
 	border-color: #3EC8AC;
 	padding: 5vw 5vw;
-    background-image: url("../img/bgbox.svg");
+    background-image: url("img/bgbox.svg");
     opacity: 0.95;
 }
 

@@ -30,7 +30,7 @@ h1 {
 	border: 8px solid;
 	border-radius: 10px;
     border-color: #3EC8AC;
-    background-image: url("../img/bgbox.svg");
+    background-image: url("img/bgbox.svg");
     opacity: 0.95;
 }
 
@@ -39,7 +39,7 @@ body {
 	color: #333;
     font-weight: 300;
     text-align: center;
-    background-image: url("../img/background.jpg");
+    background-image: url("img/background.jpg");
 }
 
 .but {
@@ -48,7 +48,7 @@ body {
 	border: 8px solid;
 	border-radius: 10px;
     border-color: #3EC8AC;
-    background-image: url("../img/bgbox.svg");
+    background-image: url("img/bgbox.svg");
     opacity: 0.95;
 }
 
