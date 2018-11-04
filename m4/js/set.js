@@ -132,8 +132,8 @@ function buildQuiz(){
       answers = [];
       for(letter in currentQuestion.answers){
         answers.push(`<label>
-                        <input type="radio" name="question${questionNumber}" value="${letter}">
-                        ${letter} : ${currentQuestion.answers[letter]}
+                      <input type="radio" name="question${questionNumber}" value="${letter}">
+                      ${letter} : ${currentQuestion.answers[letter]}
                       </label><br>`
                     );
       }
