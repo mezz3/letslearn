@@ -7,22 +7,9 @@ a {
 }
 
 body {
-    background-image: url("img/background.jpg");
+    background-image: url("../img/background.jpg");
     background-size: 8%
 }
-
-/* button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: right;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-} */
 
 p {
     font-size: 1.75vw;
@@ -41,7 +28,7 @@ p {
 	border-radius: 10px;
 	border-color: #3EC8AC;
 	padding: 5vw 5vw;
-    background-image: url("img/bgbox.svg");
+    background-image: url("../img/bgbox.svg");
     opacity: 0.95;
 }
 
@@ -146,12 +133,30 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1
-}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+#myBtn:hover {
+    background-color: #555;
 }
 
 .btn {
@@ -171,17 +176,16 @@ li.dropdown {
     box-shadow: 0px 1px 0px 0px;
 }
 
-.green {
-    text-align: right;
-    background-color: #2ecc71;
-    box-shadow: 0px 5px 0px 0px #15B358;
+.yellow {
+    background-color: #f1c40f;
+    box-shadow: 0px 5px 0px 0px #D8AB00;
 }
   
-.green:hover {
-    background-color: #48E68B;
+.yellow:hover {
+    background-color: #FFDE29;
 }
 
 #buttons {
     padding-top: 50px;
-    text-align: right;
+    text-align: center;
 }
