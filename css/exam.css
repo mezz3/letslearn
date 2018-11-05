@@ -40,6 +40,7 @@ body {
     font-weight: 300;
     text-align: center;
     background-image: url("../img/background.jpg");
+    background-size: 20%;
 }
 
 .but {

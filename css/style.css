@@ -8,21 +8,21 @@ a {
 
 body {
     background-image: url("../img/background.jpg");
-    background-size: 8%
+    background-size: 20%
 }
 
-/* button {
+button {
     border: none;
     outline: 0;
     display: inline-block;
     padding: 8px;
     color: white;
     background-color: #000;
-    text-align: right;
+    text-align: center;
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-} */
+}
 
 p {
     font-size: 1.75vw;
